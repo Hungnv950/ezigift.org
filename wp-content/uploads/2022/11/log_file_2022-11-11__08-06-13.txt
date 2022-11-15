@@ -1,0 +1,117 @@
+
+---Downloaded files---
+The import files for: Demo Import were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost:8888
+Data file = /Users/kanenguyen/Documents/Work/wp/siquatet.com_2023/wp-content/uploads/2022/11/demo-content-import-file_2022-11-11__08-06-13.xml
+Widget file = /Users/kanenguyen/Documents/Work/wp/siquatet.com_2023/wp-content/uploads/2022/11/demo-widgets-import-file_2022-11-11__08-06-13.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---ocdi/before_widgets_import---
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+TS - Gravatar Profile - About me - Imported
+TS - Recent Comments - Recent Comments - Imported
+TS - Mailchimp Subscription - Newsletter - Imported
+
+Blog Detail Sidebar : 
+
+TS - Recent Comments - Recent Comments - Imported
+TS - Blogs - Recent Posts - Imported
+
+Product Category Sidebar : 
+
+TS - Product Categories - Categories - Imported
+Filter Products by Price - Filter by price - Imported
+TS - Product Filter By Color - Filter By Color - Imported
+Filter Products by Attribute - Filter by size - Imported
+
+Product Category Top Content : 
+
+TS - Product Filter By Availability - Availability - Imported
+Filter Products by Price - By price - Imported
+TS - Product Filter By Color - By Color - Imported
+Filter Products by Attribute - By size - Imported
+
+Follow us : 
+
+TS - Social Icons - Follow us - Imported
+
+Coming soon social : 
+
+TS - Social Icons - No Title - Imported
+
+Home supermarket 2 : 
+
+TS - Products Tabs - Hot Products - Imported
+TS - Products - Top rated - Imported
+TS - Single Image - No Title - Imported
+TS - Products - Sale off - Imported
+TS - Blogs - New blogs - Imported
+TS - Mailchimp Subscription - Newsletter - Imported
+
+Footer supermarket 2 social : 
+
+TS - Social Icons - FOLLOW US - Imported
+
+Footer social glasses : 
+
+TS - Social Icons - No Title - Imported
+
+Footer funiture social : 
+
+TS - Social Icons - No Title - Imported
+
+Footer Widget Area : 
+
+TS - Footer Block - No Title - Imported
+
+Footer Copyright Widget Area : 
+
+TS - Footer Block - No Title - Imported
+
+TS Mega Menu Widget Area 1 : 
+
+Text - No Title - Imported
+TS - Products - Recent Products - Imported
+TS - Single Image - No Title - Imported
+
+TS Mega Menu Widget Area 2 : 
+
+Navigation Menu - List Pages 1 - Imported
+Navigation Menu - List Pages 2 - Imported
+
+
+
+---ocdi/after_import---
+
