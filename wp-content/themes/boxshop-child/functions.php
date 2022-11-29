@@ -9,3 +9,7 @@ function boxshop_child_register_scripts(){
     );
 }
 add_action( 'wp_enqueue_scripts', 'boxshop_child_register_scripts' );
+
+@ini_set( 'upload_max_size' , '256M' );
+@ini_set( 'post_max_size', '256M');
+@ini_set( 'max_execution_time', '600' );

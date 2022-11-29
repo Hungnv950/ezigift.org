@@ -263,7 +263,7 @@
 	.wishlist_table tr td.product-stock-status span.wishlist-in-stock,
 	body.wpb-js-composer .ts-products-tabs-widget .vc_tta-accordion .vc_tta-panel .vc_tta-panel-title > a,
 	.ts-product-in-category-tab-2-wrapper .see-more-button{
-		color:#848484;
+		color:#000000;
 	}
 	.ts-social-icons .social-icons.style-vertical .ts-tooltip,
 	.ts-social-sharing .sharing-title,
@@ -271,7 +271,7 @@
 	.tags-link,
 	.cats-link a,
 	.tags-link a{
-		color:#5d5d5d; 
+		color:#ffffffffffffffd9ffffffffffffffd9ffffffffffffffd9; 
 	}
 	/* Quick view */
 	select,
@@ -1240,7 +1240,7 @@
 	.woocommerce nav.woocommerce-pagination ul li span, 
 	.bbp-pagination-links a{
 		background-color:#ffffff;
-		color:#666666;/* color text strong */
+		color:#ffffffffffffffe2ffffffffffffffe2ffffffffffffffe2;/* color text strong */
 		border-color:#cccccc;/* color border + - */
 	}
 	/* Breadcrumb */
@@ -1279,7 +1279,7 @@
 	.header-top,
 	.header-v2 .header-top .shopping-cart-wrapper a.cart-control,
 	.header-v7 .header-top .header-right .shopping-cart-wrapper a{
-		color:#848484;
+		color:#000000;
 	}
 	/* Text Hover header top */
 	#lang_sel_click ul ul a:hover,
@@ -1785,7 +1785,7 @@
 		.ic-mobile-menu-button,
 		.ts-group-meta-icon-toggle,
 		.ts-header .header-template .shopping-cart-wrapper.cart-mobile a{
-			color:#848484;
+			color:#000000;
 		}
 		.ic-mobile-menu-button:hover,
 		.ts-group-meta-icon-toggle:hover,
