@@ -3,6 +3,7 @@
 <head>
 	<?php global $boxshop_theme_options, $boxshop_page_datas; ?>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
+	<meta name="google-site-verification" content="xip4i46WMlOyeIXootXLr8q9CK5oeykGPxdwfCmqwPg" />
 
 	<?php if( isset($boxshop_theme_options['ts_responsive']) && $boxshop_theme_options['ts_responsive'] == 1 ): ?>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
