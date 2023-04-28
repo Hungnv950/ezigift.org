@@ -7,7 +7,7 @@ if ( version_compare( phpversion(), '5.4' ) >= 0 ) {
 
 	spl_autoload_register(
 		function( $class ) {
-			$rocket_path    = '/home/deploy/ezigift.org/wp-content/plugins/wp-rocket/';
+			$rocket_path    = '/var/www/ezigift.org/wp-content/plugins/wp-rocket/';
 			$rocket_classes = [
 				'WP_Rocket\\Buffer\\Abstract_Buffer' => $rocket_path . 'inc/classes/Buffer/class-abstract-buffer.php',
 				'WP_Rocket\\Buffer\\Cache'           => $rocket_path . 'inc/classes/Buffer/class-cache.php',
@@ -44,7 +44,7 @@ if ( version_compare( phpversion(), '5.4' ) >= 0 ) {
 	
 	$rocket_config_class = new \WP_Rocket\Buffer\Config(
 		[
-			'config_dir_path' => '/home/deploy/ezigift.org/wp-content/wp-rocket-config/',
+			'config_dir_path' => '/var/www/ezigift.org/wp-content/wp-rocket-config/',
 		]
 	);
 	
@@ -54,7 +54,7 @@ if ( version_compare( phpversion(), '5.4' ) >= 0 ) {
 		),
 		$rocket_config_class,
 		[
-			'cache_dir_path' => '/home/deploy/ezigift.org/wp-content/cache/wp-rocket/',
+			'cache_dir_path' => '/var/www/ezigift.org/wp-content/cache/wp-rocket/',
 		]
 	) )->maybe_init_process();
 } else {

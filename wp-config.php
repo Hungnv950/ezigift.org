@@ -21,13 +21,13 @@ define('WP_CACHE', true); // Added by WP Rocket
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'ezigift_org' );
+define( 'DB_NAME', 'ezigift' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'ezigift' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'Aa@123123' );
+define( 'DB_PASSWORD', 'sd5SQ&5GHK@TuWhp' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -49,14 +49,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '[jYa=b1H9TeWqt5<*gzJgWtVQ)TNr1J`.J8U]_,Mp$5&E8Qe}=v6wt]tWJA#VzI+' );
-define( 'SECURE_AUTH_KEY',  'nVe:s+&Q6cTZInM5a>pe!_/% Ga2NZNzqKnE3AWot`B5,(GK2Ct)f/A>jMh`:ng:' );
-define( 'LOGGED_IN_KEY',    'Wsl~nXMO4F[`{gD}AU*inpjJ$1t?&a6R_]HgIA3c<K$yI!DvV&D-v>bTG#@W7kUM' );
-define( 'NONCE_KEY',        'Y+e5iCh{|l1Hwm~:*<ORR(6J).NN(%$@4>4v=s!-fKgs{,8.L)oZ3mkY[[VXhi6U' );
-define( 'AUTH_SALT',        '+nXzkKi`,y0;]uByCMGmiIvI8p5pL^Wb]{w6I$M|Li/3PIsjxEqw#Mx1PRPOC5z4' );
-define( 'SECURE_AUTH_SALT', '5QD{2?X4Uz`.LS&]D%*HHN1~kj^(.o)x{:nQ$56J{S0fZ~qL9I^*lm:qIunM9i(k' );
-define( 'LOGGED_IN_SALT',   'bfR*DvQ0uS_oPe*l+!9OTVz)XW_?PEtqV`aw)0h]Hr$ 9xj6/iHMUn1Qf`jWeV!j' );
-define( 'NONCE_SALT',       'UQNzKMiSD3qPK6_n{bt/_Fe;~@!I`VQM7~oZ*i%/;;6U|bO9G^fQ-7v3]JqX_!8Y' );
+define( 'AUTH_KEY',         '+)WEL$$$>9Nu`C@}kZ)r@plOeXrS*w<iQMD1&ji?{:MaB|(~%UWumSObRqOFoK-t' );
+define( 'SECURE_AUTH_KEY',  ']eL%Yg(-~R8OCSu`0B5D`B1;SLrpAgWgh*K1^%VzBoBpu){zua*7QFU`z@Jr2o-^' );
+define( 'LOGGED_IN_KEY',    '_i4Lmp-!#vCMH;|ZmJ#9)36>{-o+c>}&DU5Qh/)hL<(wz~F7LNAsEyTA6Nf<O=IO' );
+define( 'NONCE_KEY',        'yUwGFcQuwnn`+&+oKbQvw=AzU<@R4XZM@I^7aU{[+^Y{dj5Fk5jq<;>NXfD,RWm.' );
+define( 'AUTH_SALT',        'Vp-n+N4sXmSY;~P.q+quGHwV~k>JX4970|bN]Y&H;x,%y%kvgkYpcNo7A&TMJwz{' );
+define( 'SECURE_AUTH_SALT', 'z_f:+}XV,$$nDG;DE/8H ;5`62?|LJv$zB]_.j`vU^F7C=!^]=y:c@&mfe#^4r*v' );
+define( 'LOGGED_IN_SALT',   '*Aw{C(0*D*`D4jTn;zC?nh0k3i!Q&u{7G`CgiG95L0K8=H|X!lN,<,,Qur)5f8%7' );
+define( 'NONCE_SALT',       '3(NkkxdI?gwvDs:LtDf)kVtNMilXRU&DbL/{!|?$!4/sG|[1nt0W]M88QKf77ro9' );
 
 /**#@-*/
 
@@ -81,8 +81,6 @@ $table_prefix = 'wp_';
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', false );
-define('WP_MEMORY_LIMIT', '128M');
-
 
 /* Add any custom values between this line and the "stop editing" line. */
 
@@ -97,6 +95,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
-define("WP_MEMORY_LIMIT", "128M");
-
 
